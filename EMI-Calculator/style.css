@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+    background-color: aqua;
+
+}
+
+.container{
+    margin: 5px;
+    background-color: #fff;
+    padding:25px;
+    border-radius: 5px;
+    box-shadow: 3px -3px 5px maroon;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(115, 223, 139);
+    }
+    .container{
+        background-color: white;
+        padding:25px;
+    }
+}
+h1{
+    text-align: center;
+    color:maroon;
+    
+}
+h3{
+    color:maroon;
+    margin-bottom: 2px;
+    margin-top: 6px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    color: black;
+    background-color: rgb(233, 215, 215);
+    font-size: large;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:maroon;
+    color: white;
+    padding: 10px 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.button #find:active{
+    background-color:orangered;
+}
+
+.container > div > input{
+    border-radius: 5px;
+    padding-left: 3px;
+}
+
+.container div button{
+    border-radius: 5px;
+    border: none;
+}
+
+.amountInfo{
+    text-align: center;
+    margin-top: 15px;
+    color:maroon
+}
+
+.amount{
+    color:green
+}
