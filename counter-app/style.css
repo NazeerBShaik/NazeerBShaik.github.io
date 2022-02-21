@@ -1,0 +1,26 @@
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Btns{
+    text-align: center;
+   
+}   
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+body{
+    background-color: rgb(97, 240, 185);
+}
+#increment,#decrement,#reset{
+    background-color: blue;
+    color: aliceblue;
+
+}
+.heading{
+    color: rgb(221, 94, 10);
+
+}
