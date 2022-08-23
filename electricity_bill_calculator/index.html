@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity_bill_calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>  
+      </label>
+      <label class="logo">APSPDCL </label>
+      <ul class="nav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#registration">registration</a></li>
+        <li><a href="#calculator">Bill Calculator</a></li> 
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+    
+    <form class="form-container">
+      <div class="form-input">
+        <label class="input username" for="name" >User Name </label>
+        <input class="input entername" type="text" name="name" id="name" placeholder="Enter name">
+        <label class="input password" for="name" >Password</label>
+        <input id="input enterpassword" type="Password" name="Password" id="Password" placeholder="Enter Password">
+      </div>
+      <div class="form-input btns">
+        <button id="reset" type="reset">Reset</button>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  
+    <script type="text/javasceipt" src="index.js"></script>
+    
+</body>
+</html>
